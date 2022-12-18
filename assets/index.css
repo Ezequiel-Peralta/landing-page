@@ -1,0 +1,75 @@
+@import url("https://fonts.google.com/noto/specimen/Noto+Sans+Symbols");
+
+:root{
+    /*bg colors */
+    --primary: #F4582F;
+    --background: #D45636;
+    --secondary: white;
+    /*text colors */
+    --text1: #f88f75;
+    --text2: #D45636;
+    /*bgcolors */
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo{
+    width: 300px;
+    height: 60%;
+    margin-right: 570px;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+}
+
+header{
+    background: var(--secondary);
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 30px;
+
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    gap: 150px;
+}
+
+.navbar-list{
+    gap: 40px;
+}
+
+.navbar-list a{
+    color: var(--text1);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.navbar-list li:first-child > a{
+    color: var(--text2);
+    font-size: larger;
+    font-weight: bold;
+}
+
